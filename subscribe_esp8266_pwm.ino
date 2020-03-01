@@ -28,7 +28,7 @@ PubSubClient client(askClient);
 void setup() {
   Serial.begin(115200);
   Serial.println("*****************************************************");
-  Serial.println("********** Program Start : Controling ESP32 PWM with AskSensors over MQTT");
+  Serial.println("********** Program Start : Controling ESP8266 PWM with AskSensors over MQTT");
   Serial.println("PWM setup");
   pinMode(PWM_pin,OUTPUT);
   
